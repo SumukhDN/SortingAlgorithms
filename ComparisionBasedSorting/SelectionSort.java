@@ -1,4 +1,4 @@
-// Java program for implementation of Selection Sort,gj
+// Java program for implementation of Selection Sort
 
 import java.io.*; 
 public class SelectionSort 
