@@ -1,6 +1,6 @@
 // Java program for implementation of Insertion Sort
 
-public class InsertionSort {
+public class InsertionSort{
 	
 	void insertionSort(int arr[])
 	{
