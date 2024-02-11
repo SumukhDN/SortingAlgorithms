@@ -1,0 +1,27 @@
+#INSERTION-SORT
+->Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands.
+->The array is virtually split into a sorted and an unsorted part. 
+->Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+
+#TIME-COMPLEXITY
+
+BestCase            AverageCase            WorstCase
+ O(N)                 O(N^2)                 O(N^2)
+
+
+#SPACE-COMPLEXITY  -> O(1)
+
+
+#CHARACTERISTICS
+->The Insertion Sort algorithm follows an incremental approach.
+->Insertion sort is an in-place sorting algorithm.
+->Insertion sort is a stable sorting algorithm.
+->It is Adaptive in nature i.e., well used for partially sorted input array.
+->Takes O(N^2) when sorting in the reverse order.
+
+
+
+#CONCLUSION
+->Insertion sort is used when number of elements is small. 
+->It can also be useful when the input array is almost sorted, and only a few elements are misplaced in a complete big array.
