@@ -17,7 +17,7 @@ BestCase            AverageCase            WorstCase
 ->The Insertion Sort algorithm follows an incremental approach.
 ->Insertion sort is an in-place sorting algorithm.
 ->Insertion sort is a stable sorting algorithm.
-->It is Adaptive in nature i.e., well used for partially sorted input array.
+->It is Adaptive in nature i.e., well used for partially sorted input data sets.
 ->Takes O(N^2) when sorting in the reverse order.
 
 
