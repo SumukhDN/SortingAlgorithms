@@ -1,7 +1,7 @@
 #Time-Complexity: 
 
 BestCase              AverageCase              WorstCase
- O(N)                   O(N2)                    O(N2)
+ O(N)                   O(N^2)                    O(N^2)
 
 #Space-Complexity: O(1)
 
