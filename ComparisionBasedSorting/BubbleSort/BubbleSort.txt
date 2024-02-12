@@ -29,3 +29,4 @@ BestCase              AverageCase              WorstCase
 ->Good option for smaller lists,without many variables.
 ->They are simple to understand, and easy to write code.
 ->Slow to sort the list.
+->Stable
