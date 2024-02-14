@@ -1,0 +1,60 @@
+#RADIX-SORT
+->Radix Sort is a linear sorting algorithm that sorts elements by processing them digit by digit. It is an efficient sorting algorithm
+  for integers or strings with fixed-size keys. 
+
+
+#RADIX-SORTING-ALGORITHM
+->The key idea behind Radix Sort is to exploit the concept of place value. It assumes that sorting numbers digit by digit will eventually 
+  result in a fully sorted list. Radix Sort can be performed using different variations, such as Least Significant Digit (LSD) Radix Sort 
+  or Most Significant Digit (MSD) Radix Sort.
+
+
+
+#TIME-COMPLEXITY
+O(d * (n + b))
+where, d is the number of digits
+       n is the number of elements
+       b is the base of the number system being used.
+
+->Radix sort is often faster than other comparison-based sorting algorithms. 
+->such as quicksort or merge sort, for large datasets, especially when the keys have many digits. 
+->However, its time complexity grows linearly with the number of digits, and so it is not as efficient for small datasets.
+
+
+
+#SPACE-COMPLEXITY
+O(n + b)
+where,  n is the number of elements
+        b is the base of the number system. 
+->This space complexity comes from the need to create buckets for each digit value and to copy the elements back to the original array
+ after each digit has been sorted.
+
+
+#KEY-POINTS
+->It makes assumptions about the data like the data must be between a range of elements.
+->The input array must have elements with the same radix and width.
+->Radix sort works on sorting based on an individual digit or letter position.
+->We must start sorting from the rightmost position and use a stable algorithm at each position.
+->Radix sort is not an in-place algorithm as it uses a temporary count array
+
+
+#ADVANTAGES
+->Radix sort has a linear time complexity, which makes it faster than comparison-based sorting algorithms such as quicksort and merge sort
+  For large data sets.
+->It is a stable sorting algorithm, meaning that elements with the same key value maintain their relative order in the sorted output.
+->Radix sort is efficient for sorting large numbers of integers or strings.
+->It can be easily parallelized.
+
+
+#DIADVANTAGES
+->Radix sort is not efficient for sorting floating-point numbers.
+->It requires a significant amount of memory to hold the count of the number of times each digit value appears.
+->It is not efficient for small data sets or data sets with a small number of unique keys.
+->It requires that the data being sorted can be represented in a fixed number of digits, which may not be the case for some types of data.
+
+
+#CONCLUSION
+->Not In-Place
+->Stable
+->Faster than comparision based Algorithm
+->Not efficient for Smaller data sets
