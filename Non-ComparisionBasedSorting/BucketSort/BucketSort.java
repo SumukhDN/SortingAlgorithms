@@ -7,8 +7,7 @@ class GFG{
 
 	// Function to sort arr[] of size n
 	// using bucket sort
-	static void bucketSort(float arr[], int n)
-	{
+	static void bucketSort(float arr[], int n){
 		if (n <= 0)
 			return;
 
