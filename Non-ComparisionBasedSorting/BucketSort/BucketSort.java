@@ -40,11 +40,10 @@ class GFG{
 	}
 
 	// Driver code
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 		float arr[] = { (float)0.897, (float)0.565,
-						(float)0.656, (float)0.1234,
-						(float)0.665, (float)0.3434 };
+				(float)0.656, (float)0.1234,
+				(float)0.665, (float)0.3434 };
 
 		int n = arr.length;
 		bucketSort(arr, n);
