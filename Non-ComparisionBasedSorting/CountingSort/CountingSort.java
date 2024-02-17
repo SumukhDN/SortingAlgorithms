@@ -1,4 +1,4 @@
-//Implementation of Counting Sort
+//Implementation of Counting Sort.
 
 import java.util.Arrays;
 
