@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-class MergeSort{
+class MergeSot {
 
 	// Merges two subarrays of arr[].
 	// First subarray is arr[l..m]
