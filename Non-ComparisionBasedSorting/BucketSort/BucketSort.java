@@ -3,7 +3,7 @@
 import java.util.*;
 import java.util.Collections;
 
-class GFG {
+class GFG{
 
 	// Function to sort arr[] of size n
 	// using bucket sort
