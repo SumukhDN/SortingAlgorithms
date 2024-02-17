@@ -22,7 +22,7 @@ where, d is the number of digits
 
 
 
-#SPACE-COMPLEXITY
+#SPACE-COMPLEXITY:
 O(n + b)
 where,  n is the number of elements
         b is the base of the number system. 
@@ -30,7 +30,7 @@ where,  n is the number of elements
  after each digit has been sorted.
 
 
-#KEY-POINTS
+#KEY-POINTS:
 ->It makes assumptions about the data like the data must be between a range of elements.
 ->The input array must have elements with the same radix and width.
 ->Radix sort works on sorting based on an individual digit or letter position.
@@ -38,7 +38,7 @@ where,  n is the number of elements
 ->Radix sort is not an in-place algorithm as it uses a temporary count array
 
 
-#ADVANTAGES
+#ADVANTAGES:
 ->Radix sort has a linear time complexity, which makes it faster than comparison-based sorting algorithms such as quicksort and merge sort
   For large data sets.
 ->It is a stable sorting algorithm, meaning that elements with the same key value maintain their relative order in the sorted output.
@@ -46,7 +46,7 @@ where,  n is the number of elements
 ->It can be easily parallelized.
 
 
-#DIADVANTAGES
+#DIADVANTAGES:
 ->Radix sort is not efficient for sorting floating-point numbers.
 ->It requires a significant amount of memory to hold the count of the number of times each digit value appears.
 ->It is not efficient for small data sets or data sets with a small number of unique keys.
