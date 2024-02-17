@@ -4,7 +4,6 @@ import java.util.*;
 import java.util.Collections;
 
 class GFG{
-
 	// Function to sort arr[] of size n
 	// using bucket sort
 	static void bucketSort(float arr[], int n){
