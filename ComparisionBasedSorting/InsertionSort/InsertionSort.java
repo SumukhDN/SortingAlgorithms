@@ -1,4 +1,4 @@
-// Java program for implementation of Insertion Sort
+// Java program for implementation of Insertion Sort.
 
 public class InsertionSort{
 	
