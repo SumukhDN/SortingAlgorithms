@@ -12,7 +12,7 @@
 
 #TIME-COMPLEXITY
 
-Best Case: Ω (N log (N))
+Best Case -> Ω (N log (N))
 ->The best-case scenario for quicksort occur when the pivot chosen at the each step divides the array into roughly equal halves.
   In this case, the algorithm will make balanced partitions, leading to efficient Sorting.
 
