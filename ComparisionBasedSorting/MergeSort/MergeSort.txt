@@ -8,7 +8,7 @@
 ->As merge sort always divides the array into two halves and takes linear time to merge two halves.
 
 
-#SPACE-COMPLEXITY  -> o(N)
+#SPACE-COMPLEXITY  --> o(N)
 
 
 #APPLICATIONS
