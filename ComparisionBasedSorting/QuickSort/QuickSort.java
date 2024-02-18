@@ -1,4 +1,4 @@
-// Java implementation of QuickSort
+// Java implementation of QuickSort.
 
 import java.io.*;
 
