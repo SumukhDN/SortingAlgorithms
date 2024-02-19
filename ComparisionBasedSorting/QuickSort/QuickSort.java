@@ -1,12 +1,11 @@
-// Java implementation of QuickSort
+// Java implementation of QuickSort.
 
 import java.io.*;
 
 class QuickSort{
 
 	// A utility function to swap two elements
-	static void swap(int[] arr, int i, int j)
-	{
+	static void swap(int[] arr, int i, int j){
 		int temp = arr[i];
 		arr[i] = arr[j];
 		arr[j] = temp;
@@ -16,8 +15,7 @@ class QuickSort{
 	// places the pivot element at its correct position
 	// in sorted array, and places all smaller to left
 	// of pivot and all greater elements to right of pivot
-	static int partition(int[] arr, int low, int high)
-	{
+	static int partition(int[] arr, int low, int high){
 		// Choosing the pivot
 		int pivot = arr[high];
 
@@ -43,8 +41,7 @@ class QuickSort{
 	// arr[] --> Array to be sorted,
 	// low --> Starting index,
 	// high --> Ending index
-	static void quickSort(int[] arr, int low, int high)
-	{
+	static void quickSort(int[] arr, int low, int high){
 		if (low < high) {
 
 			// pi is partitioning index, arr[p]
@@ -58,16 +55,14 @@ class QuickSort{
 		}
 	}
 	// To print sorted array
-	public static void printArr(int[] arr)
-	{
+	public static void printArr(int[] arr){
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
 	}
 
 	// Driver Code
-	public static void main(String[] args)
-	{
+	public static void main(String[] args){
 		int[] arr = { 10, 7, 8, 9, 1, 5 };
 		int N = arr.length;
 
