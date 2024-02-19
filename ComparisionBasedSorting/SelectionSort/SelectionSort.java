@@ -2,10 +2,8 @@
 
 import java.io.*; 
 
-public class SelectionSort 
-{ 
-	void selectionSort(int arr[]) 
-	{ 
+public class SelectionSort { 
+	void selectionSort(int arr[]) { 
 		int n = arr.length; 
 
 		// One by one move boundary of unsorted subarray 
@@ -26,8 +24,7 @@ public class SelectionSort
 	} 
 
 	// Prints the array 
-	void printArray(int arr[]) 
-	{ 
+	void printArray(int arr[]) { 
 		int n = arr.length; 
 		for (int i=0; i<n; ++i) 
 			System.out.print(arr[i]+" "); 
@@ -35,8 +32,7 @@ public class SelectionSort
 	} 
 
 	// Driver code to test above 
-	public static void main(String args[]) 
-	{ 
+	public static void main(String args[]) { 
 		SelectionSort ob = new SelectionSort(); 
 		int arr[] = {64,25,12,22,11,54}; 
 		ob.selectionSort(arr); 
