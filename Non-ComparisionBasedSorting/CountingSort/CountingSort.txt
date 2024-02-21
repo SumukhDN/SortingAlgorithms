@@ -1,0 +1,30 @@
+#COUNTING-SORT
+->Counting Sort is a non-comparison-based sorting algorithm that works well when there is limited range of input values. 
+  It is particularly efficient when the range of input values is small compared to the number of elements to be sorted. 
+  The basic idea behind Counting Sort is to count the frequency of each distinct element in the input array and use that  
+  information to place the elements in their correct sorted positions.
+
+
+#TIME-COMPLEXITY  -->  O(N+M), where N and M are the size of inputArray[] and countArray[] respectively.
+                       [Same for all case]
+
+#SPACE-COMPLEXITY -->  O(N+M), where N and M are the space taken by outputArray[] and countArray[] respectively.
+
+
+#ADVANTAGES
+->Counting sort generally performs faster than all comparison-based sorting algorithms, such as merge sort and quicksort,
+  if the range of input is of the order of the number of input.
+->Counting sort is easy to code
+->Counting sort is a stable algorithm.
+
+
+#DISADVANTAGES
+->Counting sort doesn’t work on decimal values.
+->Counting sort is inefficient if the range of values to be sorted is very large.
+->Counting sort is not an In-place sorting algorithm, It uses extra space for sorting the array elements.
+
+#CONCLUSION
+->Limited range of input values.
+->Stable algo.
+->Faster than all Comparision based algo such as merge, quick etc.
+->Not In-Place.
