@@ -1,0 +1,18 @@
+#BUCKET-SORT
+->Bucket sort is a sorting technique that involves dividing elements into various groups, or buckets. These buckets are formed by 
+  uniformly distributing the elements. Once the elements are divided into buckets, they can be sorted using any other sorting algorithm. 
+  Finally, the sorted elements are gathered together in an ordered fashion.
+
+#BUCKET-SORT-ALGORITHM
+Create n empty buckets (Or lists) and do the following for every array element arr[i].
+
+->Insert arr[i] into bucket[n*array[i]]
+->Sort individual buckets using insertion sort.
+->Concatenate all sorted buckets.
+
+
+#TIME-COMPLEXITY --> O(n2)
+
+
+#SPACE-COMPLEXITY --> O(n+k)
+
