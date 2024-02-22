@@ -13,6 +13,7 @@ BestCase            AverageCase            WorstCase
 #SPACE-COMPLEXITY  -> O(1)
 
 
+
 #CHARACTERISTICS
 ->The Insertion Sort algorithm follows an incremental approach.
 ->Insertion sort is an in-place sorting algorithm.
@@ -25,3 +26,5 @@ BestCase            AverageCase            WorstCase
 #CONCLUSION
 ->Insertion sort is used when number of elements is small. 
 ->It can also be useful when the input array is almost sorted, and only a few elements are misplaced in a complete big array.
+->In-Place.
+->Stable.
