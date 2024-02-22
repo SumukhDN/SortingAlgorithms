@@ -12,13 +12,13 @@
 
 
 #TIME-COMPLEXITY
- O(N log N)  -->  "SAME FOR ALL CASES".
+ *O(N log N)  -->  "SAME FOR ALL CASES".
 
 
 
 #SPACE-COMPLEXITY
- ->O(log n), due to the recursive call stack. 
- ->Auxiliary space can be O(1) for iterative implementation.
+ *O(log N) --->  Recursive implementation.
+ *O(1)     --->  Iterative implementation.
 
 
 
@@ -30,12 +30,15 @@
 
 
 #ADVANTAGES
-->Efficient Time Complexity: Heap Sort has a time complexity of O(n log n) in all cases. This makes it efficient for sorting large datasets.
-  The log n factor comes from the height of the binary heap, and it ensures that the algorithm maintains good performance even with a large number of elements.
-->Memory Usage – Memory usage can be minimal because apart from what is necessary to hold the initial list of items to be sorted, 
-  it needs no additional memory space to work.
-->Simplicity –  It is simpler to understand than other equally efficient sorting algorithms because 
-  it does not use advanced computer science concepts such as recursion.
+->'Efficient Time Complexity' - Heap Sort has a time complexity of O(n log n) in all cases. This makes it efficient for sorting large 
+   datasets.The log n factor comes from the height of the binary heap, and it ensures that the algorithm maintains good performance even 
+   with a large number of elements.
+
+->'Memory Usage' – Memory usage can be minimal because apart from what is necessary to hold the initial list of items to be sorted, 
+   it needs no additional memory space to work.
+
+->'Simplicity' –  It is simpler to understand than other equally efficient sorting algorithms because 
+   it does not use advanced computer science concepts such as recursion.
 
 
 
