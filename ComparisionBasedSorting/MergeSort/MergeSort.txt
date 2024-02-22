@@ -4,11 +4,11 @@
 
 
 #TIME-COMPLEXITY
-->The time complexity of Merge Sort is θ(Nlog(N)) in all 3 cases (worst, average, and best)
+ *θ(Nlog(N)) --->  (worst, average, and best)
 ->As merge sort always divides the array into two halves and takes linear time to merge two halves.
 
 
-#SPACE-COMPLEXITY  --> o(N)
+#SPACE-COMPLEXITY  --> O(N)
 
 
 #APPLICATIONS
@@ -39,3 +39,4 @@
 ->Not In-Place
 ->Not for small datasets
 ->Suited for large data sets
+->Guaranteed worst case (Time complexity same for all 3 cases)
