@@ -1,4 +1,4 @@
-// Java program for Merge Sort
+// Java program for Merge Sort.
 
 import java.io.*;
 
