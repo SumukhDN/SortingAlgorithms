@@ -1,4 +1,4 @@
-//Java implementation of Bubble sort
+//Java implementation of Bubble sort.
 
 import java.io.*;
 
